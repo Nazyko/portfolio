@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #FFFFFF;
+}
+
+.App {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 375px;
+    display: block;
+    padding: 0 30px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+@media (min-width: 376px) {
+    .container {
+    }
+}
+
