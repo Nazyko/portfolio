@@ -1,5 +1,6 @@
 import BurgerIcon from "../../assets/menu-icon.svg"
 import classes from './Navbar.module.css'
+import Logo from "../../assets/logo.png"
 
 export const Navbar = () => {
   return (
@@ -7,7 +8,7 @@ export const Navbar = () => {
 		<div className="container">
 			<div className={classes.navbar}>
 				<a href="#about">
-					<img className={classes.navbar__logo} src="../../../public/logo.png" alt="logo"/>
+					<img className={classes.navbar__logo} src={Logo} alt="logo"/>
 				</a>
 				<div className={classes.navbar__items}>
 					<div className={classes.navbar__item}>
