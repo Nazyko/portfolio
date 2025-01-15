@@ -11,20 +11,28 @@ body {
 .App {
     box-sizing: border-box;
     margin: 0 auto;
+    overflow-x: scroll;
+}
+
+@media (min-width: 428px) {
+    .App {
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
 }
 
 .container {
     width: 100%;
-    max-width: 375px;
+    width: 428px;
     display: block;
     padding: 0 30px;
     margin: 0 auto;
     box-sizing: border-box;
 }
 
-@media (min-width: 376px) {
+@media (min-width: 1440px) {
     .container {
-        margin: 0 auto;
+        padding: 0 130px;
     }
 }
 

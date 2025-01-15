@@ -11,7 +11,7 @@ export const Portfolio = () => {
               <a href="https://vite-project-two-dun.vercel.app/" target='_blank' className={classes.portfolio__item}>
                 <h4>E-Commerce</h4>
                 <img src={Image} alt=""/>
-                <div>Technologies: <span>React</span> <span>Typescript</span> <span>Redux-Toolkit</span> </div>
+                <div>Technologies: <span>React</span>, <span>Typescript</span>, <span>Redux-Toolkit</span>. </div>
               </a>
             </div>
         </div>

@@ -1,4 +1,5 @@
 .contact {
+    width: 100%;
     margin-top: 70px;
     display: flex;
     flex-direction: column;
@@ -21,7 +22,6 @@
 }
 
 .contact__items {
-    width: 315px;
     display: flex;
     gap: 70px;
     flex-wrap: wrap;

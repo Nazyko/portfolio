@@ -1,5 +1,5 @@
 .portfolio {
-    width: 315px;
+    width: 100%;
     margin-top: 70px;
 }
 
@@ -27,14 +27,14 @@
 }
 
 .portfolio__item {
-    color: #4581F6;
-    width: 305px;
-    padding: 30px 12px 20px;
+    width: 347px;
+    padding: 30px;
     display: flex;
     gap: 27px;
     flex-direction: column;
     align-items: flex-start;
     border-radius: 10px;
+    color: #4581F6;
     box-shadow: 0 6px 30px 1px rgba(0, 0, 0, 25%);
 }
 
@@ -51,7 +51,7 @@
 }
 
 .portfolio__item img {
-    width: 289px;
+    width: 287px;
     height: 164px;
     border-radius: 7px;
     box-shadow: 0 1px 7px 2px rgba(0, 0, 0, 25%);
