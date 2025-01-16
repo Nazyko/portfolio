@@ -5,7 +5,7 @@ export const Portfolio = () => {
   return (
     <div>
       <div className="container">
-        <div className={classes.portfolio}>
+        <div className={classes.portfolio} id="portfolio">
             <div className={classes.portfolio__title}>My <span>Portfolio</span></div>
             <div className={classes.portfolio__items}>
               <a href="https://vite-project-two-dun.vercel.app/" target='_blank' className={classes.portfolio__item}>

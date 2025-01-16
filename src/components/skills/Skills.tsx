@@ -12,7 +12,7 @@ export const Skills = () => {
   return (
     <div>
       <div className='container'>
-        <div className={classes.skill}>
+        <div className={classes.skill} id="skills">
           <h1 className={classes.skill__title}>Soft <span>Skills</span></h1>
           <div className={classes.skill__list}>
             <div className={classes.skill__item}>

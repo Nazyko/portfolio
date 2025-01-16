@@ -4,12 +4,14 @@ import Logo from "../../assets/logo.png"
 
 export const Navbar = () => {
   return (
-    <div>
+    
 		<div className="container">
 			<div className={classes.navbar}>
-				<a href="#about">
+				<a href="#">
 					<img className={classes.navbar__logo} src={Logo} alt="logo"/>
 				</a>
+				
+				<button className="menu"><img className={classes.menu_icon} src={BurgerIcon} alt="" /></button>
 				<div className={classes.navbar__items}>
 					<div className={classes.navbar__item}>
 						<a href="#about">About</a>
@@ -20,14 +22,13 @@ export const Navbar = () => {
 					<div className={classes.navbar__item}>
 						<a href="#portfolio">Portfolio</a>
 					</div>
-					<div className={classes.navbar__item}>
+					<div className={classes.navbar__item_contact}>
 						<a href="#contact">Contact Me</a>
 					</div>
 				</div>
-				<button className="menu"><img src={BurgerIcon} alt="" /></button>
 			</div>
 		</div>
-    </div>
+   
   )
 }
 

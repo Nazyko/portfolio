@@ -6,7 +6,7 @@ export const Footer = () => {
       <div className='container'>
         <div className={classes.footer}>
           <div className={classes.footer__inner}>
-            <h3>reypnazarovanazira@gmail.com</h3>
+            <h3>©reypnazarovanazira@gmail.com</h3>
           </div>
         </div>
       </div>

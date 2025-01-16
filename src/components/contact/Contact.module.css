@@ -6,6 +6,12 @@
     gap: 70px;
 }
 
+@media (min-width: 1440px) {
+    .contact {
+        margin-top: 168px;
+    }
+}
+
 .contact__title {
     color: #14279B;
     font-size: 35px;
@@ -15,6 +21,12 @@
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+}
+
+@media (min-width: 1440px) {
+    .contact__title {
+        font-size: 35px;
+    }
 }
 
 .contact__title span {
@@ -27,6 +39,13 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+
+@media (min-width: 1440px) {
+    .contact__items {
+        flex-direction: row;
+        gap: 60px;
+    }
 }
 
 .contact__item {

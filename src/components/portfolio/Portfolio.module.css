@@ -3,6 +3,12 @@
     margin-top: 70px;
 }
 
+@media (min-width: 1440px) {
+    .portfolio {
+        margin-top: 168px;
+    }
+}
+
 .portfolio__title {
     color: #14279B;
     font-size: 25px;
@@ -12,6 +18,12 @@
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+}
+
+@media (min-width: 1440px) {
+    .portfolio__title {
+        font-size: 35px;
+    }
 }
 
 .portfolio__title span {
@@ -24,6 +36,14 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    gap: 30px;
+}
+
+@media (min-width: 1440px) {
+    .portfolio__items {
+        margin-top: 60px;
+        gap: 50px;
+    }
 }
 
 .portfolio__item {

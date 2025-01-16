@@ -16,7 +16,6 @@ body {
 
 @media (min-width: 425px) {
     .App {
-        margin: 0 auto;
         overflow-x: hidden;
     }
 }
@@ -24,7 +23,6 @@ body {
 .container {
     width: 100%;
     width: 425px;
-    display: block;
     padding: 0 30px;
     margin: 0 auto;
     box-sizing: border-box;
@@ -32,6 +30,7 @@ body {
 
 @media (min-width: 1440px) {
     .container {
+        width: 1440px;
         padding: 0 130px;
     }
 }
