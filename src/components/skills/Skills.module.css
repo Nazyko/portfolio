@@ -1,5 +1,6 @@
 .skill {
-    margin-top: 70px;
+    margin-top: 40px;
+    padding-top: 30px;
     width: 100%;
 
     display: flex;
@@ -9,7 +10,7 @@
 
 @media (min-width: 1440px) {
     .skill {
-        margin-top: 90px;
+        margin-top: 60px;
         gap: 60px;
     }
 }
