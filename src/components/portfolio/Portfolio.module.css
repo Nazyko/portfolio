@@ -48,15 +48,22 @@
 }
 
 .portfolio__item {
-    width: 347px;
-    padding: 30px;
+    width: 300px;
+    padding: 20px;
     display: flex;
     gap: 27px;
     flex-direction: column;
     align-items: flex-start;
     border-radius: 10px;
     color: #4581F6;
-    box-shadow: 0 6px 30px 1px rgba(0, 0, 0, 25%);
+    box-shadow: 0 6px 10px 1px rgba(0, 0, 0, 25%);
+}
+
+@media (min-width: 1440px) {
+    .portfolio__item {
+        width: 347px;
+        height: 337px;
+    }
 }
 
 .portfolio__item h4 {
@@ -68,7 +75,6 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #6C63FF;
-    
 }
 
 .portfolio__item img {
